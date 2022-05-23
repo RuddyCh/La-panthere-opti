@@ -44,6 +44,12 @@ a:hover {
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer {
+    padding: 0rem;
 }
 
 .bloc-lg {
@@ -684,7 +690,8 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .h1 {
@@ -753,8 +760,6 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1063,4 +1068,53 @@ h4 {
     height: 250px;
     width: 250px;
     margin: auto;
+}
+
+.col-sm-4 p {
+    font-size: 1.3rem;
+}
+
+.citation {
+    font-size: small;
+}
+
+.citation-name {
+    font-size: medium;
+}
+
+.col-sm-12 p {
+    font-size: 1.3rem;
+}
+
+.col-sm-12 a {
+    font-size: 1.8rem;
+}
+
+.col-sm-6 {
+    margin-bottom: 2rem;
+}
+
+.col-sm-6 p {
+    font-size: 1.2rem;
+}
+
+.nav a {
+    font-size: 1.8rem;
+}
+
+.headernav {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.flexcenter {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.col-sm-6 .flexcenter {
+    margin-bottom: 30%;
 }

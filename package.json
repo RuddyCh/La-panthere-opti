@@ -1,0 +1,24 @@
+{
+  "name": "panthere",
+  "version": "1.0.0",
+  "description": "OpenClassRooms projet 4 - La panthere",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss ./css/original/style.css -u cssnano -o ./css/style-min.css --no-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuddyCh/La-panthere-opti.git"
+  },
+  "author": "Ruddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuddyCh/La-panthere-opti/issues"
+  },
+  "homepage": "https://github.com/RuddyCh/La-panthere-opti#readme",
+  "devDependencies": {
+    "cssnano": "^5.1.9",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^9.1.0"
+  }
+}
