@@ -19,15 +19,6 @@ a:hover {
     cursor: pointer;
 }
 
-#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("../img/pageload-spinner.gif") no-repeat center center;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -464,7 +455,7 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(0, 0, 0, 0.822);
 }
 
 .btn-rd {
@@ -519,9 +510,8 @@ nav .caret {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
     transition: all .3s ease-in-out;
+    z-index: 1;
 }
 
 .scrollToTop span {
@@ -1123,4 +1113,8 @@ a:focus-visible {
 #nav-toggle:focus-visible {
     outline: 2px solid red;
     outline-offset: 3px;
+}
+
+.fa-chevron-up {
+    color: #FFFFFF;
 }
